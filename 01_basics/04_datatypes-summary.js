@@ -43,3 +43,38 @@ const myFunction = function(){
 
 
 console.log(typeof id);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive) (memory)
+
+let myYoutubename = "AQUAdotcom"
+
+
+let anothername = myYoutubename
+
+anothername = "chaiaurcodedotcom";
+
+console.log(anothername);
+console.log(myYoutubename);
+
+
+let userOne ={
+    email:"user@gmail.com",
+    upid:"234@byl"
+}
+
+
+let userTwo = userOne
+
+
+userTwo.email = "AQUA@GMAIL.COM"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+// In stack ( Primitive) you get just a copy of that value
+
+
+// but in Heap ( Non-Primitive) you get a the referrence of the given value 
