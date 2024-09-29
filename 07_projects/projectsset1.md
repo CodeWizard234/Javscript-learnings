@@ -1,7 +1,16 @@
-# Projects related to Dom
+# Projects realated to DOM
 
-1 ) Project related to color changer
+## project link
 
+[Click here](https://stackblitz.com/edit/dom-project-chaiaurcode-ucjwn1?file=index.html)
+
+
+# Solution link
+
+
+## project 1 
+
+```javascript 
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -38,3 +47,6 @@ buttons.forEach(function (button) {
     }
   });
 });
+
+
+```
